@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+*.egg-info/
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+.env
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Data, weights and runs are never committed (see CONTRIBUTING.md)
+data/
+experiments/
+outputs/
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.mp4
+*.avi
+
+# Notebooks
+.ipynb_checkpoints/
